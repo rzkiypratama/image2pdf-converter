@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  #imageInput {
+    margin-bottom: 10px;
+  }
+  #convertBtn {
+    margin-bottom: 20px;
+  }
