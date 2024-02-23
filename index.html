@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Image to PDF Converter</h1>
-    <input type="file" id="imageFiles" accept="image/*" multiple />
-    <button id="convertBtn">Convert to PDF</button>
+    <div class="main">
+      <div class="row">
+        <h1>Image to PDF Converter</h1>
+        <div class="rowBtn">
+          <input type="file" id="imageFiles" accept="image/*" multiple />
+          <button id="convertBtn">Convert to PDF</button>
+        </div>
+      </div>
+    </div>
     <div id="pdfDownloadLink"></div>
 </body>
 <script src="script.js"></script>
