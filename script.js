@@ -7,8 +7,8 @@ document
     return;
   }
 
-  if (files.length > 6) {
-    alert("Maximum 6 images allowed.");
+  if (files.length > 25) {
+    alert("Maximum 25 images allowed.");
     return;
   }
 
